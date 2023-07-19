@@ -1,0 +1,20 @@
+name,amount,date,holder,type
+RECL shares,2310,06/02/22,sham,stock
+GAIL,2640,07/01/22,sham,stock
+Infy,1533,08/02/22,sham,stock
+TechM,2100,09/07/22,sham,stock
+TCS,5962,09/23/22,sham,stock
+NatcoPharm,1839,10/03/22,sham,stock
+Wipro,1950,11/21/22,sham,stock
+Unilever ,5028,11/24/22,sham,stock
+CAMS,4570,12/01/22,sham,stock
+Saksoft,1100,01/09/23,sham,stock
+Coal india,1120,02/01/23,sham,stock
+IDFC first,1336,02/02/23,sham,stock
+CIPLA,1810,03/01/23,sham,stock
+CIPLA,2757,03/05/23,sham,stock
+CIPLA,988,06/01/23,anjum,stock
+IDFCFIRST,3970,06/27/23,anjum,stock
+PIDLITIND,5298,06/27/23,anjum,stock
+WIPRO,4976,06/27/23,anjum,stock
+SBI Nifty IF,5000,07/01/23,sham,index
