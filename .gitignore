@@ -1,4 +1,11 @@
+#Virtual environments
 venv
+
+# Cache by imported python files
 __pycache__
 
+# Data
+data/*.csv
+
+# Others
 server_user_id.txt
