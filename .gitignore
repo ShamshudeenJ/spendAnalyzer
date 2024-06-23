@@ -6,6 +6,10 @@ __pycache__
 
 # Data
 data/*.csv
+data/*.xlsx
 
 # Others
 server_user_id.txt
+
+# Logs
+logs/
