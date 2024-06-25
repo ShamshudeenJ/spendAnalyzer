@@ -25,3 +25,10 @@ def update_investment():
     df_invest['date'] = pd.to_datetime(df_invest['date']).dt.date
     df_invest.to_sql('investment',con, if_exists='append', index=False)
     logger.info('Investment data successfully stored in DB!')
+
+def xlsx_to_csv():
+    df = pd.read_excel('data/budget.xlsx')
+    print(df)
+
+if __name__ == '__main__':
+    xlsx_to_csv()
