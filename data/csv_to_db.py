@@ -34,16 +34,17 @@ def xlsx_to_csv():
         df = df.rename(columns={1:'date',0:'item',2:'price'})
         df = df.dropna()
         df['date'] = pd.to_datetime(df['date']).dt.date
-        print(name)
-        print(df['price'])
         df['price'] = df['price'].map(lambda x: x.strip('='))
         df['price'] = df['price'].str.split('+')
         df['item'] = df['item'].str.split(',')
         df = df.explode(['price','item'])
-        df.info()
         all_sheets.append(df)
-        # break
-    df_cons = pd.concat(all_sheets)
+        if name == 'March18':
+            break
+    df_cons = pd.concat(all_sheets, ignore_index=True)
+    df_cons = df_cons.sort_values(by='date')
+    print(df_cons)
+    df_cons.info()
     df_cons.to_csv('df_cons.csv', index=False)
 
 
