@@ -10,6 +10,9 @@ exp = Expense(os.path.dirname(__file__)+'/../../data/expense.csv')
 
 with st.expander('Monthly expense', expanded=True):
     st.altair_chart(exp.heatmap(),use_container_width=True)
+    st.altair_chart(exp.monthly_projection(), use_container_width=True)
 
 with st.expander('Monthly distribution', expanded=True):
-    st.altair_chart(exp.distribution(),use_container_width=True)
+    lt,rt = st.columns(2)
+    lt.altair_chart(exp.distribution())
+    rt.write(f"Mean: Rs.{exp.monthly_stats['mean']} and Median of **Rs.{exp.monthly_stats['median']} $±$ Rs.{exp.monthly_stats['sd']}**")
