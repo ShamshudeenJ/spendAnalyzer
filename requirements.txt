@@ -10,5 +10,5 @@ vegafusion==1.6.9
 vegafusion-python-embed==1.6.9
 vl-convert-python==1.5.0
 jupyterlab==4.2.3
-ipython==8.26.0
+ipython==8.18.1
 notebook==7.2.1
