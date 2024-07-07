@@ -44,8 +44,5 @@ class Expense():
 
         self.data_monthly['weighted_price'] = (self.data_monthly['price'] * self.data_monthly['weights'])
 
-        print(self.data_monthly)
-        print(self.data_monthly.columns)
-
         self.monthly_stats['weighted_mean'] = self.data_monthly['weighted_price'].mean()
         return chart

@@ -13,3 +13,6 @@ server_user_id.txt
 
 # Logs
 logs/
+
+# Jupyter checkpoints
+src/.ipynb_checkpoints/

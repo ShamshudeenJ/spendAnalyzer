@@ -16,6 +16,7 @@ with st.expander('Monthly distribution', expanded=True):
     lt,rt = st.columns([2,1])
     lt.altair_chart(exp.distribution(),use_container_width=True)
     rt.write(f"Mean: Rs.{exp.monthly_stats['mean']}")
+    rt.write(f"Weighted Mean: Rs.{exp.monthly_stats['weighted_mean']}")
     rt.write(f"Geometric Mean: Rs.{exp.monthly_stats['geo_mean']}")
     rt.write(f"Median of **Rs.{exp.monthly_stats['median']} $±$ Rs.{exp.monthly_stats['sd']}**")
-    print(exp.monthly_stats['weighted_mean'])
+
