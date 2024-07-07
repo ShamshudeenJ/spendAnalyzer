@@ -1,5 +1,7 @@
 import pandas as pd
 import altair as alt
+import numpy as np
+from statistics import geometric_mean
 
 class Expense():
     def __init__(self, file_name):
@@ -7,6 +9,7 @@ class Expense():
         self.data['date'] = pd.to_datetime(self.data['date'])
         self.data['price'] = pd.to_numeric(self.data['price'])
         self.monthly_stats = {}
+        self.config = {}
         self.data_monthly = self.data.groupby(by=[self.data['date'].dt.year.rename('year'),
                                                   self.data['date'].dt.month.rename('month')])['price'].sum()
         self.data_monthly = self.data_monthly.reset_index()
@@ -36,4 +39,13 @@ class Expense():
         self.monthly_stats['mean'] = round(self.data_monthly['price'].mean())
         self.monthly_stats['median'] = round(self.data_monthly['price'].median())
         self.monthly_stats['sd'] = round(self.data_monthly['price'].std())
+        self.monthly_stats['geo_mean'] = round(geometric_mean(self.data_monthly['price']))
+        self.data_monthly['weights'] = 1* (1 - 0.05)**np.arange(len(self.data_monthly['price']))[::-1]
+
+        self.data_monthly['weighted_price'] = (self.data_monthly['price'] * self.data_monthly['weights'])
+
+        print(self.data_monthly)
+        print(self.data_monthly.columns)
+
+        self.monthly_stats['weighted_mean'] = self.data_monthly['weighted_price'].mean()
         return chart
