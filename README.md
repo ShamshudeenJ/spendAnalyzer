@@ -17,3 +17,9 @@ pip install -r .\requirements.txt
 ```console
 streamlit run .\src\main.py
 ```
+
+## To export Jupyter notebook to Static HTML page
+
+```console
+jupyter nbconvert --execute --to html .\src\notebooks\main.ipynb --no-input
+```

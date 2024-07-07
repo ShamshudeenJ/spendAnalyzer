@@ -16,3 +16,6 @@ logs/
 
 # Jupyter checkpoints
 src/.ipynb_checkpoints/
+
+# Disbale github actions
+.github/
