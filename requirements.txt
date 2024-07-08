@@ -12,3 +12,4 @@ vl-convert-python==1.5.0
 jupyterlab==4.2.3
 ipython==8.18.1
 notebook==7.2.1
+prophet==1.1.5

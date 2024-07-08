@@ -2,6 +2,7 @@ import pandas as pd
 import altair as alt
 import numpy as np
 from statistics import geometric_mean
+from prophet import Prophet
 
 class Expense():
     def __init__(self, file_name):
@@ -13,6 +14,10 @@ class Expense():
         self.data_monthly = self.data.groupby(by=[self.data['date'].dt.year.rename('year'),
                                                   self.data['date'].dt.month.rename('month')])['price'].sum()
         self.data_monthly = self.data_monthly.reset_index()
+        self.data_monthly['date'] = self.data_monthly['year'].astype(str) + '-' + self.data_monthly['month'].astype(str)
+        self.data_monthly.index = pd.to_datetime(self.data_monthly['date'])
+        self.data_monthly = self.data_monthly.resample('M').last()
+        self.data_monthly.index.name = None
     
     def heatmap(self):
         chart = alt.Chart(self.data).mark_rect().encode(
@@ -24,11 +29,35 @@ class Expense():
         return chart
     
     def monthly_projection(self):
-        chart = alt.Chart(self.data).mark_line().encode(
-            x = alt.X('yearmonth(date):T'),
-            y = alt.Y('sum(price):Q')
-            ).interactive()
-        return chart
+        # chart = alt.Chart(self.data).mark_line().encode(
+        #     x = alt.X('yearmonth(date):T'),
+        #     y = alt.Y('sum(price):Q')
+        #     ).interactive()
+        df_proj = pd.DataFrame(self.data_monthly['price'])
+        df_proj = df_proj.reset_index()
+        df_proj = df_proj.rename(columns={'index':'ds','price':'y'})
+
+        p_model = Prophet()
+        p_model.fit(df_proj)
+        future = p_model.make_future_dataframe(periods=5, freq='ME')
+        forecast = p_model.predict(future)
+        forecast = forecast.round()
+
+        trend = alt.Chart(forecast).mark_line(color='green').encode(
+            x = alt.X('ds:T', axis=alt.Axis(format="%b-%Y")),
+            y = alt.Y('trend:Q'))
+        yhat = alt.Chart(forecast).mark_circle().encode(
+            x = alt.X('ds:T'),
+            y = alt.Y('yhat:Q'))
+        yhat_lower = alt.Chart(forecast).mark_circle(color='red').encode(
+            x = alt.X('ds:T'),
+            y = alt.Y('yhat_lower:Q'))
+        chart = alt.layer(trend, yhat, yhat_lower)
+        yhat_upper = alt.Chart(forecast).mark_circle(color='red').encode(
+            x = alt.X('ds:T'),
+            y = alt.Y('yhat_upper:Q'))
+        chart = alt.layer(trend, yhat)#,yhat_lower, yhat_upper)
+        return chart.interactive()
     
     def distribution(self):
         chart = alt.Chart(self.data_monthly).mark_bar().encode(

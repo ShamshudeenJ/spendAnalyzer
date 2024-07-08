@@ -12,7 +12,7 @@ with st.expander('Monthly expense', expanded=True):
     st.altair_chart(exp.heatmap(),use_container_width=True)
     st.altair_chart(exp.monthly_projection(), use_container_width=True)
 
-with st.expander('Monthly distribution', expanded=True):
+with st.expander(f"Monthly distribution: **{exp.data['date'].min().date()} to {exp.data['date'].max().date()}**", expanded=True):
     lt,rt = st.columns([2,1])
     lt.altair_chart(exp.distribution(),use_container_width=True)
     rt.write(f"Mean: Rs.{exp.monthly_stats['mean']}")
