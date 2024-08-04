@@ -1,0 +1,1879 @@
+{
+    "meat": {
+        "label": [
+            "meat"
+        ]
+    },
+    "petrol": {
+        "label": [
+            "petrol"
+        ]
+    },
+    "dryFruit": {
+        "label": [
+            "dry",
+            "Fruit"
+        ]
+    },
+    "lunch": {
+        "label": [
+            "lunch"
+        ]
+    },
+    "pamper": {
+        "label": [
+            "pamper"
+        ]
+    },
+    "grocery": {
+        "label": [
+            "grocery"
+        ]
+    },
+    "milk": {
+        "label": [
+            "milk"
+        ]
+    },
+    "water": {
+        "label": [
+            "water"
+        ]
+    },
+    "fish": {
+        "label": [
+            "fish"
+        ]
+    },
+    "hairCut": {
+        "label": [
+            "hair",
+            "Cut"
+        ]
+    },
+    " juice": {
+        "label": [
+            "juice"
+        ]
+    },
+    "snacks": {
+        "label": [
+            "snacks"
+        ]
+    },
+    "chicken": {
+        "label": [
+            "chicken"
+        ]
+    },
+    "veg": {
+        "label": [
+            "veg"
+        ]
+    },
+    "eggs": {
+        "label": [
+            "eggs"
+        ]
+    },
+    "gas": {
+        "label": [
+            "gas"
+        ]
+    },
+    "egg": {
+        "label": [
+            "egg"
+        ]
+    },
+    "tea": {
+        "label": [
+            "tea"
+        ]
+    },
+    "lassi": {
+        "label": [
+            "lassi"
+        ]
+    },
+    " hotel": {
+        "label": [
+            "hotel"
+        ]
+    },
+    " milk": {
+        "label": [
+            "milk"
+        ]
+    },
+    "vada": {
+        "label": [
+            "vada"
+        ]
+    },
+    "dinner": {
+        "label": [
+            "dinner"
+        ]
+    },
+    "fruits": {
+        "label": [
+            "fruits"
+        ]
+    },
+    "bikeInsurance": {
+        "label": [
+            "bike",
+            "Insurance"
+        ]
+    },
+    "bus": {
+        "label": [
+            "bus"
+        ]
+    },
+    "recharge": {
+        "label": [
+            "recharge"
+        ]
+    },
+    "juice": {
+        "label": [
+            "juice"
+        ]
+    },
+    "jeans": {
+        "label": [
+            "jeans"
+        ]
+    },
+    "jioSim": {
+        "label": [
+            "jio",
+            "Sim"
+        ]
+    },
+    "utensils": {
+        "label": [
+            "utensils"
+        ]
+    },
+    "sensor": {
+        "label": [
+            "sensor"
+        ]
+    },
+    "breakfast": {
+        "label": [
+            "breakfast"
+        ]
+    },
+    "TANCETapplcn": {
+        "label": "TANCETapplcn"
+    },
+    "masjid": {
+        "label": [
+            "masjid"
+        ]
+    },
+    "books": {
+        "label": [
+            "books"
+        ]
+    },
+    "utensil": {
+        "label": [
+            "utensil"
+        ]
+    },
+    "rice": {
+        "label": [
+            "rice"
+        ]
+    },
+    "umarHospital": {
+        "label": [
+            "umar",
+            "Hospital"
+        ]
+    },
+    "anjumRecharge": {
+        "label": [
+            "anjum",
+            "Recharge"
+        ]
+    },
+    "LIC": {
+        "label": "LIC"
+    },
+    "anjumPhone": {
+        "label": [
+            "anjum",
+            "Phone"
+        ]
+    },
+    "gastube": {
+        "label": [
+            "gastube"
+        ]
+    },
+    "car": {
+        "label": [
+            "car"
+        ]
+    },
+    "movie": {
+        "label": [
+            "movie"
+        ]
+    },
+    "ACservice": {
+        "label": "ACservice"
+    },
+    "dress": {
+        "label": [
+            "dress"
+        ]
+    },
+    "gasService": {
+        "label": [
+            "gas",
+            "Service"
+        ]
+    },
+    "auto": {
+        "label": [
+            "auto"
+        ]
+    },
+    "Ebbill": {
+        "label": "Ebbill"
+    },
+    "onlineCourse": {
+        "label": [
+            "online",
+            "Course"
+        ]
+    },
+    "amazonPrime": {
+        "label": [
+            "amazon",
+            "Prime"
+        ]
+    },
+    "pampers": {
+        "label": [
+            "pampers"
+        ]
+    },
+    "biryani": {
+        "label": [
+            "biryani"
+        ]
+    },
+    "driver": {
+        "label": [
+            "driver"
+        ]
+    },
+    "headSet": {
+        "label": [
+            "head",
+            "Set"
+        ]
+    },
+    "PCB": {
+        "label": "PCB"
+    },
+    "poongWedGift": {
+        "label": [
+            "poong",
+            "Wed",
+            "Gift"
+        ]
+    },
+    "haleem": {
+        "label": [
+            "haleem"
+        ]
+    },
+    "trimmer": {
+        "label": [
+            "trimmer"
+        ]
+    },
+    "train": {
+        "label": [
+            "train"
+        ]
+    },
+    "haircut": {
+        "label": [
+            "haircut"
+        ]
+    },
+    "swimming": {
+        "label": [
+            "swimming"
+        ]
+    },
+    "anjumChain": {
+        "label": [
+            "anjum",
+            "Chain"
+        ]
+    },
+    "amma": {
+        "label": [
+            "amma"
+        ]
+    },
+    "maniWedding": {
+        "label": [
+            "mani",
+            "Wedding"
+        ]
+    },
+    "cab": {
+        "label": [
+            "cab"
+        ]
+    },
+    " grocery": {
+        "label": [
+            "grocery"
+        ]
+    },
+    "toy": {
+        "label": [
+            "toy"
+        ]
+    },
+    "dishTV": {
+        "label": [
+            "dish",
+            "T",
+            "V"
+        ]
+    },
+    "EB": {
+        "label": "EB"
+    },
+    "tanca": {
+        "label": [
+            "tanca"
+        ]
+    },
+    "bikeService": {
+        "label": [
+            "bike",
+            "Service"
+        ]
+    },
+    "helmet": {
+        "label": [
+            "helmet"
+        ]
+    },
+    "inductionStove": {
+        "label": [
+            "induction",
+            "Stove"
+        ]
+    },
+    "medicine": {
+        "label": [
+            "medicine"
+        ]
+    },
+    "dishRecharge": {
+        "label": [
+            "dish",
+            "Recharge"
+        ]
+    },
+    "millk": {
+        "label": [
+            "millk"
+        ]
+    },
+    "Milk": {
+        "label": "Milk"
+    },
+    "anjum": {
+        "label": [
+            "anjum"
+        ]
+    },
+    "anjumLIC": {
+        "label": [
+            "anjum",
+            "L",
+            "I",
+            "C"
+        ]
+    },
+    "sweets": {
+        "label": [
+            "sweets"
+        ]
+    },
+    "RiyazBabyGift": {
+        "label": "RiyazBabyGift"
+    },
+    "AnnaUnivAdmission": {
+        "label": "AnnaUnivAdmission"
+    },
+    "medTest": {
+        "label": [
+            "med",
+            "Test"
+        ]
+    },
+    "collegeFees": {
+        "label": [
+            "college",
+            "Fees"
+        ]
+    },
+    "bike": {
+        "label": [
+            "bike"
+        ]
+    },
+    "penDrive": {
+        "label": [
+            "pen",
+            "Drive"
+        ]
+    },
+    "jioRecharge": {
+        "label": [
+            "jio",
+            "Recharge"
+        ]
+    },
+    "pipe": {
+        "label": [
+            "pipe"
+        ]
+    },
+    "doctor": {
+        "label": [
+            "doctor"
+        ]
+    },
+    "umarDress": {
+        "label": [
+            "umar",
+            "Dress"
+        ]
+    },
+    "lab": {
+        "label": [
+            "lab"
+        ]
+    },
+    "cabAbu": {
+        "label": [
+            "cab",
+            "Abu"
+        ]
+    },
+    "examFee": {
+        "label": [
+            "exam",
+            "Fee"
+        ]
+    },
+    " Juice": {
+        "label": "Juice"
+    },
+    " pamper": {
+        "label": [
+            "pamper"
+        ]
+    },
+    " travel": {
+        "label": [
+            "travel"
+        ]
+    },
+    "boo": {
+        "label": [
+            "boo"
+        ]
+    },
+    "shoe": {
+        "label": [
+            "shoe"
+        ]
+    },
+    "anjumHospital": {
+        "label": [
+            "anjum",
+            "Hospital"
+        ]
+    },
+    "houseItems": {
+        "label": [
+            "house",
+            "Items"
+        ]
+    },
+    "raincoat": {
+        "label": [
+            "raincoat"
+        ]
+    },
+    "plumber": {
+        "label": [
+            "plumber"
+        ]
+    },
+    "hospital": {
+        "label": [
+            "hospital"
+        ]
+    },
+    "shirt": {
+        "label": [
+            "shirt"
+        ]
+    },
+    "EB bill": {
+        "label": "EBbill"
+    },
+    "sweet": {
+        "label": [
+            "sweet"
+        ]
+    },
+    "anjumWatch": {
+        "label": [
+            "anjum",
+            "Watch"
+        ]
+    },
+    "idrisGift": {
+        "label": [
+            "idris",
+            "Gift"
+        ]
+    },
+    "AcService": {
+        "label": "AcService"
+    },
+    "anjumDress": {
+        "label": [
+            "anjum",
+            "Dress"
+        ]
+    },
+    "dryFish": {
+        "label": [
+            "dry",
+            "Fish"
+        ]
+    },
+    "busTravel": {
+        "label": [
+            "bus",
+            "Travel"
+        ]
+    },
+    "travel": {
+        "label": [
+            "travel"
+        ]
+    },
+    "phoneScreen": {
+        "label": [
+            "phone",
+            "Screen"
+        ]
+    },
+    "azarMarriage": {
+        "label": [
+            "azar",
+            "Marriage"
+        ]
+    },
+    "umarMedicine": {
+        "label": [
+            "umar",
+            "Medicine"
+        ]
+    },
+    "lic": {
+        "label": [
+            "lic"
+        ]
+    },
+    "ismailSisWedding": {
+        "label": [
+            "ismail",
+            "Sis",
+            "Wedding"
+        ]
+    },
+    "shamRecharge": {
+        "label": [
+            "sham",
+            "Recharge"
+        ]
+    },
+    "dryfruit": {
+        "label": [
+            "dryfruit"
+        ]
+    },
+    "mosquitoBat": {
+        "label": [
+            "mosquito",
+            "Bat"
+        ]
+    },
+    "tneb": {
+        "label": [
+            "tneb"
+        ]
+    },
+    "collegeFee": {
+        "label": [
+            "college",
+            "Fee"
+        ]
+    },
+    "hazrath": {
+        "label": [
+            "hazrath"
+        ]
+    },
+    " breakfast": {
+        "label": [
+            "breakfast"
+        ]
+    },
+    "fathimaBoo": {
+        "label": [
+            "fathima",
+            "Boo"
+        ]
+    },
+    "weddingGift": {
+        "label": [
+            "wedding",
+            "Gift"
+        ]
+    },
+    "switch": {
+        "label": [
+            "switch"
+        ]
+    },
+    "cashew": {
+        "label": [
+            "cashew"
+        ]
+    },
+    "headset": {
+        "label": [
+            "headset"
+        ]
+    },
+    "electronic": {
+        "label": [
+            "electronic"
+        ]
+    },
+    "mobileHolder": {
+        "label": [
+            "mobile",
+            "Holder"
+        ]
+    },
+    "electronics": {
+        "label": [
+            "electronics"
+        ]
+    },
+    "jamath": {
+        "label": [
+            "jamath"
+        ]
+    },
+    "pendrive": {
+        "label": [
+            "pendrive"
+        ]
+    },
+    "coconut": {
+        "label": [
+            "coconut"
+        ]
+    },
+    "ammaHospital": {
+        "label": [
+            "amma",
+            "Hospital"
+        ]
+    },
+    "vinothWedding": {
+        "label": [
+            "vinoth",
+            "Wedding"
+        ]
+    },
+    "watchStrap": {
+        "label": [
+            "watch",
+            "Strap"
+        ]
+    },
+    "anjumTravel": {
+        "label": [
+            "anjum",
+            "Travel"
+        ]
+    },
+    "shamshuTravel": {
+        "label": [
+            "shamshu",
+            "Travel"
+        ]
+    },
+    "ammaJewel": {
+        "label": [
+            "amma",
+            "Jewel"
+        ]
+    },
+    "cable": {
+        "label": [
+            "cable"
+        ]
+    },
+    "remote": {
+        "label": [
+            "remote"
+        ]
+    },
+    "phoneCase": {
+        "label": [
+            "phone",
+            "Case"
+        ]
+    },
+    "umardress": {
+        "label": [
+            "umardress"
+        ]
+    },
+    "photo": {
+        "label": [
+            "photo"
+        ]
+    },
+    "sunDish": {
+        "label": [
+            "sun",
+            "Dish"
+        ]
+    },
+    "fruit": {
+        "label": [
+            "fruit"
+        ]
+    },
+    "toys": {
+        "label": [
+            "toys"
+        ]
+    },
+    "specs": {
+        "label": [
+            "specs"
+        ]
+    },
+    "groecry": {
+        "label": [
+            "groecry"
+        ]
+    },
+    "ACInstall": {
+        "label": "ACInstall"
+    },
+    "bikeCover": {
+        "label": [
+            "bike",
+            "Cover"
+        ]
+    },
+    "talor": {
+        "label": [
+            "talor"
+        ]
+    },
+    " dinner": {
+        "label": [
+            "dinner"
+        ]
+    },
+    "eidi": {
+        "label": [
+            "eidi"
+        ]
+    },
+    "table": {
+        "label": [
+            "table"
+        ]
+    },
+    "akramWedding": {
+        "label": [
+            "akram",
+            "Wedding"
+        ]
+    },
+    "park": {
+        "label": [
+            "park"
+        ]
+    },
+    "lic3": {
+        "label": [
+            "lic3"
+        ]
+    },
+    "lic1": {
+        "label": [
+            "lic1"
+        ]
+    },
+    "lic2": {
+        "label": [
+            "lic2"
+        ]
+    },
+    "bedCover": {
+        "label": [
+            "bed",
+            "Cover"
+        ]
+    },
+    "stationary": {
+        "label": [
+            "stationary"
+        ]
+    },
+    "ashrafWedding": {
+        "label": [
+            "ashraf",
+            "Wedding"
+        ]
+    },
+    "kindleReader": {
+        "label": [
+            "kindle",
+            "Reader"
+        ]
+    },
+    "gift": {
+        "label": [
+            "gift"
+        ]
+    },
+    "amolMed": {
+        "label": [
+            "amol",
+            "Med"
+        ]
+    },
+    "Breakfast": {
+        "label": "Breakfast"
+    },
+    "Acservice": {
+        "label": "Acservice"
+    },
+    "watchRepair": {
+        "label": [
+            "watch",
+            "Repair"
+        ]
+    },
+    "ismailWedding": {
+        "label": [
+            "ismail",
+            "Wedding"
+        ]
+    },
+    "Recharge": {
+        "label": "Recharge"
+    },
+    "mat": {
+        "label": [
+            "mat"
+        ]
+    },
+    "babaUmra": {
+        "label": [
+            "baba",
+            "Umra"
+        ]
+    },
+    "umarSchool": {
+        "label": [
+            "umar",
+            "School"
+        ]
+    },
+    "powerbank": {
+        "label": [
+            "powerbank"
+        ]
+    },
+    "course": {
+        "label": [
+            "course"
+        ]
+    },
+    "lamp": {
+        "label": [
+            "lamp"
+        ]
+    },
+    "charger": {
+        "label": [
+            "charger"
+        ]
+    },
+    "cycle": {
+        "label": [
+            "cycle"
+        ]
+    },
+    "bag": {
+        "label": [
+            "bag"
+        ]
+    },
+    "examfee": {
+        "label": [
+            "examfee"
+        ]
+    },
+    "azarBaby": {
+        "label": [
+            "azar",
+            "Baby"
+        ]
+    },
+    "AdhuGift": {
+        "label": "AdhuGift"
+    },
+    "AnjumDress": {
+        "label": "AnjumDress"
+    },
+    " EBbill": {
+        "label": "EBbill"
+    },
+    "Tvrecharge": {
+        "label": "Tvrecharge"
+    },
+    "snack": {
+        "label": [
+            "snack"
+        ]
+    },
+    "Gas": {
+        "label": "Gas"
+    },
+    " jewel": {
+        "label": [
+            "jewel"
+        ]
+    },
+    "syedMarriage": {
+        "label": [
+            "syed",
+            "Marriage"
+        ]
+    },
+    "babu": {
+        "label": [
+            "babu"
+        ]
+    },
+    "nizamWedding": {
+        "label": [
+            "nizam",
+            "Wedding"
+        ]
+    },
+    "schoolDress": {
+        "label": [
+            "school",
+            "Dress"
+        ]
+    },
+    "ticket": {
+        "label": [
+            "ticket"
+        ]
+    },
+    "cake": {
+        "label": [
+            "cake"
+        ]
+    },
+    "syedDonation": {
+        "label": [
+            "syed",
+            "Donation"
+        ]
+    },
+    "fitra": {
+        "label": [
+            "fitra"
+        ]
+    },
+    "amazon": {
+        "label": [
+            "amazon"
+        ]
+    },
+    "EBbill": {
+        "label": "EBbill"
+    },
+    "TVRecharge": {
+        "label": "TVRecharge"
+    },
+    "mask": {
+        "label": [
+            "mask"
+        ]
+    },
+    "sdcard": {
+        "label": [
+            "sdcard"
+        ]
+    },
+    "Medicine": {
+        "label": "Medicine"
+    },
+    "walker": {
+        "label": [
+            "walker"
+        ]
+    },
+    "insurance": {
+        "label": [
+            "insurance"
+        ]
+    },
+    "treat": {
+        "label": [
+            "treat"
+        ]
+    },
+    "bed": {
+        "label": [
+            "bed"
+        ]
+    },
+    "bikeLock": {
+        "label": [
+            "bike",
+            "Lock"
+        ]
+    },
+    " Gift": {
+        "label": "Gift"
+    },
+    " veg": {
+        "label": [
+            "veg"
+        ]
+    },
+    "print": {
+        "label": [
+            "print"
+        ]
+    },
+    "anjumGift": {
+        "label": [
+            "anjum",
+            "Gift"
+        ]
+    },
+    "bangles": {
+        "label": [
+            "bangles"
+        ]
+    },
+    "book": {
+        "label": [
+            "book"
+        ]
+    },
+    "project": {
+        "label": [
+            "project"
+        ]
+    },
+    "eyeWear": {
+        "label": [
+            "eye",
+            "Wear"
+        ]
+    },
+    "phone": {
+        "label": [
+            "phone"
+        ]
+    },
+    "umarGift": {
+        "label": [
+            "umar",
+            "Gift"
+        ]
+    },
+    "gocery": {
+        "label": [
+            "gocery"
+        ]
+    },
+    "tools": {
+        "label": [
+            "tools"
+        ]
+    },
+    "briyani": {
+        "label": [
+            "briyani"
+        ]
+    },
+    "ACrepair": {
+        "label": "ACrepair"
+    },
+    "wifi": {
+        "label": [
+            "wifi"
+        ]
+    },
+    "hardware": {
+        "label": [
+            "hardware"
+        ]
+    },
+    " BikeInsurance": {
+        "label": "BikeInsurance"
+    },
+    "college": {
+        "label": [
+            "college"
+        ]
+    },
+    "Tablet": {
+        "label": "Tablet"
+    },
+    "EBBill": {
+        "label": "EBBill"
+    },
+    "Exam fee": {
+        "label": "Examfee"
+    },
+    " fish": {
+        "label": [
+            "fish"
+        ]
+    },
+    " phoneRecharge": {
+        "label": [
+            "phone",
+            "Recharge"
+        ]
+    },
+    "watch": {
+        "label": [
+            "watch"
+        ]
+    },
+    "fee": {
+        "label": [
+            "fee"
+        ]
+    },
+    "furniture": {
+        "label": [
+            "furniture"
+        ]
+    },
+    "housewarming": {
+        "label": [
+            "housewarming"
+        ]
+    },
+    "gym": {
+        "label": [
+            "gym"
+        ]
+    },
+    "BroadbandRecharge": {
+        "label": "BroadbandRecharge"
+    },
+    "function": {
+        "label": [
+            "function"
+        ]
+    },
+    "jewellery": {
+        "label": [
+            "jewellery"
+        ]
+    },
+    "bhaiGift": {
+        "label": [
+            "bhai",
+            "Gift"
+        ]
+    },
+    " hospital": {
+        "label": [
+            "hospital"
+        ]
+    },
+    "houseLoan": {
+        "label": [
+            "house",
+            "Loan"
+        ]
+    },
+    " Gas": {
+        "label": "Gas"
+    },
+    "tax": {
+        "label": [
+            "tax"
+        ]
+    },
+    "courier": {
+        "label": [
+            "courier"
+        ]
+    },
+    "airtelRecharge": {
+        "label": [
+            "airtel",
+            "Recharge"
+        ]
+    },
+    "Travel": {
+        "label": "Travel"
+    },
+    "passport": {
+        "label": [
+            "passport"
+        ]
+    },
+    " snacks": {
+        "label": [
+            "snacks"
+        ]
+    },
+    "laptopService": {
+        "label": [
+            "laptop",
+            "Service"
+        ]
+    },
+    "fanRepair": {
+        "label": [
+            "fan",
+            "Repair"
+        ]
+    },
+    "umarTuition": {
+        "label": [
+            "umar",
+            "Tuition"
+        ]
+    },
+    "repair": {
+        "label": [
+            "repair"
+        ]
+    },
+    "TVrecharge": {
+        "label": "TVrecharge"
+    },
+    "phoneRecharge": {
+        "label": [
+            "phone",
+            "Recharge"
+        ]
+    },
+    "keyboard": {
+        "label": [
+            "keyboard"
+        ]
+    },
+    "umarArabicFee": {
+        "label": [
+            "umar",
+            "Arabic",
+            "Fee"
+        ]
+    },
+    "umarHaircut": {
+        "label": [
+            "umar",
+            "Haircut"
+        ]
+    },
+    "aadhar": {
+        "label": [
+            "aadhar"
+        ]
+    },
+    "phoneRepair": {
+        "label": [
+            "phone",
+            "Repair"
+        ]
+    },
+    "internetRecharge": {
+        "label": [
+            "internet",
+            "Recharge"
+        ]
+    },
+    "certificate": {
+        "label": [
+            "certificate"
+        ]
+    },
+    "tailor": {
+        "label": [
+            "tailor"
+        ]
+    },
+    "schoolFee": {
+        "label": [
+            "school",
+            "Fee"
+        ]
+    },
+    "wonderla": {
+        "label": [
+            "wonderla"
+        ]
+    },
+    "hotel": {
+        "label": [
+            "hotel"
+        ]
+    },
+    "internet": {
+        "label": [
+            "internet"
+        ]
+    },
+    "utencils": {
+        "label": [
+            "utencils"
+        ]
+    },
+    "schoolVan": {
+        "label": [
+            "school",
+            "Van"
+        ]
+    },
+    "GPSdevice": {
+        "label": "GPSdevice"
+    },
+    "Internet": {
+        "label": "Internet"
+    },
+    "laptopstand": {
+        "label": [
+            "laptopstand"
+        ]
+    },
+    "autoFee": {
+        "label": [
+            "auto",
+            "Fee"
+        ]
+    },
+    "Acrepair": {
+        "label": "Acrepair"
+    },
+    "Qurebani": {
+        "label": "Qurebani"
+    },
+    "internetBill": {
+        "label": [
+            "internet",
+            "Bill"
+        ]
+    },
+    "IncomeTax": {
+        "label": "IncomeTax"
+    },
+    "umarAuto": {
+        "label": [
+            "umar",
+            "Auto"
+        ]
+    },
+    "shoeRepair": {
+        "label": [
+            "shoe",
+            "Repair"
+        ]
+    },
+    "grocey": {
+        "label": [
+            "grocey"
+        ]
+    },
+    "INternetBill": {
+        "label": "INternetBill"
+    },
+    "tour": {
+        "label": [
+            "tour"
+        ]
+    },
+    "food": {
+        "label": [
+            "food"
+        ]
+    },
+    "umarEnglishClass": {
+        "label": [
+            "umar",
+            "English",
+            "Class"
+        ]
+    },
+    "zooVisit": {
+        "label": [
+            "zoo",
+            "Visit"
+        ]
+    },
+    " course": {
+        "label": [
+            "course"
+        ]
+    },
+    " water ": {
+        "label": [
+            "water"
+        ]
+    },
+    " petrol": {
+        "label": [
+            "petrol"
+        ]
+    },
+    " TV recharge": {
+        "label": "TVrecharge"
+    },
+    " haircut": {
+        "label": [
+            "haircut"
+        ]
+    },
+    " rechargr": {
+        "label": [
+            "rechargr"
+        ]
+    },
+    "stationery ": {
+        "label": [
+            "stationery"
+        ]
+    },
+    " InternetBill": {
+        "label": "InternetBill"
+    },
+    "grocery ": {
+        "label": [
+            "grocery"
+        ]
+    },
+    " gift": {
+        "label": [
+            "gift"
+        ]
+    },
+    " fruits ": {
+        "label": [
+            "fruits"
+        ]
+    },
+    " stationary": {
+        "label": [
+            "stationary"
+        ]
+    },
+    " internet": {
+        "label": [
+            "internet"
+        ]
+    },
+    "school": {
+        "label": [
+            "school"
+        ]
+    },
+    " breakfast ": {
+        "label": [
+            "breakfast"
+        ]
+    },
+    " dress": {
+        "label": [
+            "dress"
+        ]
+    },
+    " electronics ": {
+        "label": [
+            "electronics"
+        ]
+    },
+    " travel ": {
+        "label": [
+            "travel"
+        ]
+    },
+    " schoolFee": {
+        "label": [
+            "school",
+            "Fee"
+        ]
+    },
+    " utensils": {
+        "label": [
+            "utensils"
+        ]
+    },
+    " print": {
+        "label": [
+            "print"
+        ]
+    },
+    " meat": {
+        "label": [
+            "meat"
+        ]
+    },
+    "medicine ": {
+        "label": [
+            "medicine"
+        ]
+    },
+    "recharge ": {
+        "label": [
+            "recharge"
+        ]
+    },
+    " medicine": {
+        "label": [
+            "medicine"
+        ]
+    },
+    " swimming": {
+        "label": [
+            "swimming"
+        ]
+    },
+    "Veg": {
+        "label": "Veg"
+    },
+    "babu gift": {
+        "label": [
+            "babugift"
+        ]
+    },
+    " LIC": {
+        "label": "LIC"
+    },
+    "Fish": {
+        "label": "Fish"
+    },
+    " grocery ": {
+        "label": [
+            "grocery"
+        ]
+    },
+    " sirajWedGift": {
+        "label": [
+            "siraj",
+            "Wed",
+            "Gift"
+        ]
+    },
+    " water": {
+        "label": [
+            "water"
+        ]
+    },
+    "bilalGift": {
+        "label": [
+            "bilal",
+            "Gift"
+        ]
+    },
+    "stationery": {
+        "label": [
+            "stationery"
+        ]
+    },
+    "PrimeSubs": {
+        "label": "PrimeSubs"
+    },
+    "InternetBill": {
+        "label": "InternetBill"
+    },
+    "jewel": {
+        "label": [
+            "jewel"
+        ]
+    },
+    "AC": {
+        "label": "AC"
+    },
+    "kurbani": {
+        "label": [
+            "kurbani"
+        ]
+    },
+    "Meat": {
+        "label": "Meat"
+    },
+    "sports": {
+        "label": [
+            "sports"
+        ]
+    },
+    "termIns": {
+        "label": [
+            "term",
+            "Ins"
+        ]
+    },
+    "badminton": {
+        "label": [
+            "badminton"
+        ]
+    },
+    "termInsurance": {
+        "label": [
+            "term",
+            "Insurance"
+        ]
+    },
+    "tuition": {
+        "label": [
+            "tuition"
+        ]
+    },
+    "study": {
+        "label": [
+            "study"
+        ]
+    },
+    "carTraining": {
+        "label": [
+            "car",
+            "Training"
+        ]
+    },
+    "abuGift": {
+        "label": [
+            "abu",
+            "Gift"
+        ]
+    },
+    "flower": {
+        "label": [
+            "flower"
+        ]
+    },
+    "driving": {
+        "label": [
+            "driving"
+        ]
+    },
+    "velloreWeddingGift": {
+        "label": [
+            "vellore",
+            "Wedding",
+            "Gift"
+        ]
+    },
+    "jewelGift": {
+        "label": [
+            "jewel",
+            "Gift"
+        ]
+    },
+    "tuitionFee": {
+        "label": [
+            "tuition",
+            "Fee"
+        ]
+    },
+    "netflix": {
+        "label": [
+            "netflix"
+        ]
+    },
+    "anjumReacharge": {
+        "label": [
+            "anjum",
+            "Reacharge"
+        ]
+    },
+    "drivingSchool": {
+        "label": [
+            "driving",
+            "School"
+        ]
+    },
+    "heaterPad": {
+        "label": [
+            "heater",
+            "Pad"
+        ]
+    },
+    "giftBilal": {
+        "label": [
+            "gift",
+            "Bilal"
+        ]
+    },
+    "giftRam": {
+        "label": [
+            "gift",
+            "Ram"
+        ]
+    },
+    "giftUmema": {
+        "label": [
+            "gift",
+            "Umema"
+        ]
+    },
+    "giftHitesh": {
+        "label": [
+            "gift",
+            "Hitesh"
+        ]
+    },
+    "giftAnisha": {
+        "label": [
+            "gift",
+            "Anisha"
+        ]
+    },
+    "giftReshma": {
+        "label": [
+            "gift",
+            "Reshma"
+        ]
+    },
+    "giftAbu": {
+        "label": [
+            "gift",
+            "Abu"
+        ]
+    },
+    "giftEidTdm": {
+        "label": [
+            "gift",
+            "Eid",
+            "Tdm"
+        ]
+    },
+    "giftEidGng": {
+        "label": [
+            "gift",
+            "Eid",
+            "Gng"
+        ]
+    },
+    "giftEidBilal": {
+        "label": [
+            "gift",
+            "Eid",
+            "Bilal"
+        ]
+    },
+    "giftGingee": {
+        "label": [
+            "gift",
+            "Gingee"
+        ]
+    },
+    "giftVellore": {
+        "label": [
+            "gift",
+            "Vellore"
+        ]
+    },
+    "giftHritika": {
+        "label": [
+            "gift",
+            "Hritika"
+        ]
+    },
+    "tuitionKarate": {
+        "label": [
+            "tuition",
+            "Karate"
+        ]
+    },
+    "giftHamza": {
+        "label": [
+            "gift",
+            "Hamza"
+        ]
+    },
+    "gingeeGift": {
+        "label": [
+            "gingee",
+            "Gift"
+        ]
+    },
+    "prime": {
+        "label": [
+            "prime"
+        ]
+    },
+    "karateFee": {
+        "label": [
+            "karate",
+            "Fee"
+        ]
+    },
+    "giftArifVellore": {
+        "label": [
+            "gift",
+            "Arif",
+            "Vellore"
+        ]
+    },
+    "bakridKurbani": {
+        "label": [
+            "bakrid",
+            "Kurbani"
+        ]
+    }
+}

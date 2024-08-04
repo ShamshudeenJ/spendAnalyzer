@@ -3,6 +3,9 @@ import altair as alt
 import numpy as np
 from statistics import geometric_mean
 from prophet import Prophet
+import json
+import os
+
 
 class Expense():
     def __init__(self, file_name):
@@ -19,6 +22,36 @@ class Expense():
         self.data_monthly = self.data_monthly.resample('M').last()
         self.data_monthly.index.name = None
     
+    def create_config(self):
+        df = self.datadf = self.data
+        items = df['item'].unique()
+        item_map = {k:'' for k in items}
+
+        # Remove spaces
+        for k in item_map:
+            item_map[k] = {}
+            item_map[k]['label'] = k.replace(" ","")
+    
+        # Split camelCase in to two words
+        for k in item_map:
+            if item_map[k]['label'][0].islower():
+                res = [idx for idx in range(len(item_map[k]['label'])) if item_map[k]['label'][idx].isupper()]
+                res.insert(0,0)
+                if res:
+                    parts = [item_map[k]['label'][i:j] for i,j in zip(res, res[1:]+[None])]
+                    item_map[k]['label'] = parts
+                else:
+                    item_map[k]['label'] = item_map[k]['label']
+        with open('src/models/item_map.json','w') as fo:
+            json.dump(item_map, fo, indent=4)
+
+
+    def spent_category(self):
+        df = self.data
+        self.create_config()
+        
+        return df['item'].value_counts()
+
     def heatmap(self):
         chart = alt.Chart(self.data).mark_rect().encode(
             x = alt.X('year(date):O'),
