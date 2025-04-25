@@ -76,20 +76,27 @@ class Expense():
         forecast = p_model.predict(future)
         forecast = forecast.round()
 
+        actuals = alt.Chart(df_proj).mark_circle(color='blue').encode(
+            x = alt.X('ds:T', axis=alt.Axis(format="%b-%Y")),
+            y = alt.Y('y:Q'),
+            tooltip=alt.Tooltip(['ds:T','y:Q',]))
+        
         trend = alt.Chart(forecast).mark_line(color='green').encode(
             x = alt.X('ds:T', axis=alt.Axis(format="%b-%Y")),
-            y = alt.Y('trend:Q'))
-        yhat = alt.Chart(forecast).mark_circle().encode(
+            y = alt.Y('trend:Q'),
+            tooltip=alt.Tooltip(['ds:T','trend:Q']))
+        yhat = alt.Chart(forecast).mark_line(color='green').encode(
             x = alt.X('ds:T'),
-            y = alt.Y('yhat:Q'))
-        yhat_lower = alt.Chart(forecast).mark_circle(color='red').encode(
+            y = alt.Y('yhat:Q'),
+            tooltip=alt.Tooltip(['ds:T','yhat:Q']))
+        yhat_lower = alt.Chart(forecast).mark_line(color='red').encode(
             x = alt.X('ds:T'),
-            y = alt.Y('yhat_lower:Q'))
-        chart = alt.layer(trend, yhat, yhat_lower)
-        yhat_upper = alt.Chart(forecast).mark_circle(color='red').encode(
+            y = alt.Y('yhat_lower:Q'),)
+        # chart = alt.layer(trend, yhat, yhat_lower)
+        yhat_upper = alt.Chart(forecast).mark_line(color='red').encode(
             x = alt.X('ds:T'),
             y = alt.Y('yhat_upper:Q'))
-        chart = alt.layer(trend, yhat)#,yhat_lower, yhat_upper)
+        chart = alt.layer(trend, yhat_upper, actuals)
         return chart.interactive()
     
     def distribution(self):

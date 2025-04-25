@@ -26,7 +26,7 @@ def update_investment():
 
 def xlsx_to_csv():
     wb = load_workbook(filename='data/budget.xlsx')
-    sheets_list = wb.get_sheet_names()
+    sheets_list = wb.sheetnames
     all_sheets = []
     for name in sheets_list[::-1]:
         df = pd.DataFrame(wb[name].values)
@@ -34,9 +34,13 @@ def xlsx_to_csv():
         df = df.rename(columns={1:'date',0:'item',2:'price'})
         df = df.dropna()
         df['date'] = pd.to_datetime(df['date']).dt.date
-        df['price'] = df['price'].map(lambda x: x.strip('='))
+        try:
+            df['price'] = df['price'].map(lambda x: x.strip('='))
+        except AttributeError:
+            print(f'Check sheet:{name}')
         df['price'] = df['price'].str.split('+')
         df['item'] = df['item'].str.split(',')
+        print(f'Sheet name: {name}')
         df = df.explode(['price','item'])
         all_sheets.append(df)
         if name == 'March18':

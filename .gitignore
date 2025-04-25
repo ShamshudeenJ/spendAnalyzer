@@ -7,6 +7,7 @@ __pycache__
 # Data
 data/*.csv
 data/*.xlsx
+src/models/item_map.json
 
 # Others
 server_user_id.txt
